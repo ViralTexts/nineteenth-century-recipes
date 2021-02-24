@@ -1,5 +1,4 @@
-# nineteenth-century-recipes
-A dataset of nineteenth-century, American recipes in plain text format
+This repository includes a set of nineteenth-century, American recipes in plain text format
 
 # A Dataset of Nineteenth-Century American Recipes
 
@@ -24,6 +23,8 @@ As I’ve been developing this dataset, I has occurred to me that others might b
 To begin assembling training dataI pulled all of the nineteenth-century American recipe books available in plain-text format from Project Gutenberg. Since defining what makes a recipe book “American,” exactly, can be tricky, I decided to use books published in America in the nineteenth century, though some of these books may be centered around a particular kind of cuisine, like French cuisine. Then, going through each book by hand, I separated each recipe into its own text file. Each text file was named with the ID in Gutenberg followed by the title (or in some cases the shortened title) of each recipe. This way, if I were, say, only interested in recipes about cakes or recipes with pork the central ingredient, this would be possible by only searching through the titles as opposed to reading the entire text of the recipe. 
 
 Additionally, since many recipe books in the nineteenth century also feature recipes specifically aimed towards people with illnesses,or for medicinal uses, I indicated when this was the case by adding “illness” to the end of the filename for recipes aimed at feeding people with illness and “medicine” to the end of any filename where the recipe is providing some sort of cure for an ailment. By marking these recipes as distinct from the rest of the set, those interested in only looking at medicinal recipes or recipes for feeding people with illnesses could filter for those recipes specifically, or remove them if only typical, food-related recipes were of interest. 
+
+
 
 Suggested citation for this dataset is:
 
